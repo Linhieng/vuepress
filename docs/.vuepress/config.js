@@ -2,7 +2,7 @@ module.exports = {
   title: 'test VuePress',
   description: 'Just playing around',
   evergreen: true,
-  base: '/vuepress', // https://linhieng.github.io/vuepress/
+  base: '/vuepress/', // https://linhieng.github.io/vuepress/
   // dest: '/dist', // 直接在盘符根目录下
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
