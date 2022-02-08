@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>侧边栏分组 | test VuePress</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/vuepress/logo.png">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/vuepress/assets/css/0.styles.9412616c.css" as="style"><link rel="preload" href="/vuepress/assets/js/app.037139cc.js" as="script"><link rel="preload" href="/vuepress/assets/js/2.13686704.js" as="script"><link rel="preload" href="/vuepress/assets/js/14.ca81dd28.js" as="script"><link rel="prefetch" href="/vuepress/assets/js/10.481d546f.js"><link rel="prefetch" href="/vuepress/assets/js/11.d8f6af7e.js"><link rel="prefetch" href="/vuepress/assets/js/12.897467a1.js"><link rel="prefetch" href="/vuepress/assets/js/13.a246f1be.js"><link rel="prefetch" href="/vuepress/assets/js/15.545f1369.js"><link rel="prefetch" href="/vuepress/assets/js/3.948aaaf8.js"><link rel="prefetch" href="/vuepress/assets/js/4.f90ebe44.js"><link rel="prefetch" href="/vuepress/assets/js/5.391be865.js"><link rel="prefetch" href="/vuepress/assets/js/6.ad7e2c0f.js"><link rel="prefetch" href="/vuepress/assets/js/7.d24e5759.js"><link rel="prefetch" href="/vuepress/assets/js/8.a36b2aa5.js"><link rel="prefetch" href="/vuepress/assets/js/9.e9cc4631.js">
+    <link rel="stylesheet" href="/vuepress/assets/css/0.styles.9412616c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress/" class="home-link router-link-active"><img src="/vuepress/hero.png" alt="test VuePress" class="logo"> <span class="site-name can-hide">test VuePress</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuepress/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/vuepress/foo/" class="nav-link router-link-active">
+  FOO
+</a></div><div class="nav-item"><a href="https://github.com/linhieng" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="下拉列表标题" class="dropdown-title"><span class="title">下拉列表标题</span> <span class="arrow down"></span></button> <button type="button" aria-label="下拉列表标题" class="mobile-dropdown-title"><span class="title">下拉列表标题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress/" class="nav-link">
+  Home
+</a></li><li class="dropdown-item"><h4>
+          Group1
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vuepress/" class="nav-link">
+  Group1 HOME
+</a></li><li class="dropdown-subitem"><a href="/bar/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Group1 BAR
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://github.com/linhieng" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Group1 item3
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuepress/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/vuepress/foo/" class="nav-link router-link-active">
+  FOO
+</a></div><div class="nav-item"><a href="https://github.com/linhieng" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="下拉列表标题" class="dropdown-title"><span class="title">下拉列表标题</span> <span class="arrow down"></span></button> <button type="button" aria-label="下拉列表标题" class="mobile-dropdown-title"><span class="title">下拉列表标题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vuepress/" class="nav-link">
+  Home
+</a></li><li class="dropdown-item"><h4>
+          Group1
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/vuepress/" class="nav-link">
+  Group1 HOME
+</a></li><li class="dropdown-subitem"><a href="/bar/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Group1 BAR
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-subitem"><a href="https://github.com/linhieng" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Group1 item3
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Group 1 foo</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuepress/foo/" aria-current="page" class="sidebar-link">foo README</a></li><li><a href="/vuepress/foo/emoji.html" class="sidebar-link">emoji</a></li><li><a href="/vuepress/foo/slider.html" aria-current="page" class="active sidebar-link">侧边栏分组</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Group 2 bar</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuepress/bar/" class="sidebar-link">bar README</a></li><li><a href="/vuepress/bar/one.html" class="sidebar-link">bar / two</a></li><li><a href="/vuepress/bar/two.html" class="sidebar-link">bar / tow</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Group 2 /</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/vuepress/" aria-current="page" class="sidebar-link">HOME</a></li><li><a href="/vuepress/other.html" class="sidebar-link">other</a></li><li><a href="/vuepress/directory.html" class="sidebar-link">directory</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="侧边栏分组"><a href="#侧边栏分组" class="header-anchor">#</a> 侧边栏分组</h1> <p>文件结构应该是这样的： '.' 代表 docs</p> <div class="language-text extra-class"><pre class="language-text"><code>.
+├─ README.md
+├─ directory.md
+├─ other.md
+│
+├─ foo/
+│  ├─ README.md
+│  ├─ slider.md
+│  └─ emoji.md
+│
+└─ bar/
+   ├─ README.md
+   ├─ one.md
+   └─ two.md
+
+</code></pre></div><p>config.js 中也应该进行对应的配置</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// .vuepress/config.js</span>
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token literal-property property">themeConfig</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token literal-property property">sidebar</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'Group 1 foo'</span><span class="token punctuation">,</span>   <span class="token comment">// 必要的</span>
+        <span class="token comment">// path: '/foo/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在</span>
+        <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span> <span class="token comment">// 可选的, 默认值是 true,</span>
+        <span class="token literal-property property">sidebarDepth</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>    <span class="token comment">// 可选的, 默认值是 1</span>
+        <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token string">'/foo/'</span><span class="token punctuation">,</span>
+          <span class="token string">'/foo/emoji'</span><span class="token punctuation">,</span>
+          <span class="token string">'/foo/slider'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'Group 2 bar'</span><span class="token punctuation">,</span>   <span class="token comment">// 必要的</span>
+        <span class="token comment">// path: '/bar/',      // 可选的, 标题的跳转链接，应为绝对路径且必须存在</span>
+        <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 可选的, 默认值是 true,</span>
+        <span class="token literal-property property">sidebarDepth</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>    <span class="token comment">// 可选的, 默认值是 1</span>
+        <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token string">'/bar/'</span><span class="token punctuation">,</span>
+          <span class="token string">'/bar/one'</span><span class="token punctuation">,</span>
+          <span class="token string">'/bar/two'</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token punctuation">{</span>
+        <span class="token literal-property property">title</span><span class="token operator">:</span> <span class="token string">'Group 2 /'</span><span class="token punctuation">,</span>   <span class="token comment">// 必要的</span>
+        <span class="token literal-property property">collapsable</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> <span class="token comment">// 可选的, 默认值是 true,</span>
+        <span class="token literal-property property">sidebarDepth</span><span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>    <span class="token comment">// 可选的, 默认值是 1</span>
+        <span class="token literal-property property">children</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">[</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token string">'HOME'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token punctuation">[</span><span class="token string">'/other'</span><span class="token punctuation">,</span> <span class="token string">'other'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+          <span class="token punctuation">[</span><span class="token string">'/directory'</span><span class="token punctuation">,</span> <span class="token string">'directory'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/vuepress/foo/emoji.html" class="prev">
+        emoji
+      </a></span> <span class="next"><a href="/vuepress/bar/">
+        bar README
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vuepress/assets/js/app.037139cc.js" defer></script><script src="/vuepress/assets/js/2.13686704.js" defer></script><script src="/vuepress/assets/js/14.ca81dd28.js" defer></script>
+  </body>
+</html>
