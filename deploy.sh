@@ -15,6 +15,7 @@ then
   git push -f origin main
 fi
 
+echo "成功一半！"
 # 前面出现错误时，后面就不会执行了，后面的 push 无论如何都是会需要执行的
 # 如果前面 push 成功，只有后面 push 失败，则传入多个参数（大于一个）
 
